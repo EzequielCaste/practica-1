@@ -1,0 +1,11 @@
+# Undefined Shell Blog
+
+## ¿ Cómo abordar un proyecto?
+
+1. **Analizar la necesidad del proyecto**: Revisar si el proyecto cumple con las necesidades del usuario, preguntarse quien lo va a usar y cómo lo va a usar.
+2. **Revisar la documentación del proyecto:** Si el proyecto tiene documentación, o un archivo de diseño, explorar todos los assets para ir armando un plan.
+2. **Analizar como puedes dividir el problema:** Revisar si vas a empezar por la maquetación, si vas a realizar el layout primero, qué tecnologías vas a usar, qué metodologías vas a usar.
+3. **Empezar a trabajar en algo:** No tiene que ser perfecto para empezar, lo importante es empexar, siempre se puede cambiar después. Mejor hecho que perfecto.
+4. **Ponerse objetivos en pequeñas tareas:** Darle prioridad a las tareas y empezar  una a la vez, muy relacionado con el punto 2, pero en un sentido ya más empírico.
+5. **Refactorizar poco a poco:** Revisar que patrones ya existen en el proyecto y extraerlos para ir mejorando el código.
+6. **Comunicar inconsistencias:** A veces podemos encontrar incosistencias en el código o en el diseño es importante preguntar por qué está así.

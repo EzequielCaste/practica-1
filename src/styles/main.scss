@@ -1,6 +1,7 @@
-@use "setup";
-@use "variables";
-@use "tools";
-@use "elements";
-@use "objects";
+@use "settings"; // defino variables
+@use "tools"; // defino mixins
+@use "generic";
+@use "elements"; // estilos predefinidos
+@use "objects"; //contenedores - solo estructura
 @use "components";
+@use "utilities";
