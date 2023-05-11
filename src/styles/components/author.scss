@@ -1,0 +1,17 @@
+ 
+.author {
+  display: flex;
+  align-items: center;
+  gap: 0 12px;
+}
+
+.author img {
+  width: 100%;
+  max-width: 32px;
+  max-height: 32px;
+  border-radius: 50%;
+}
+
+.author span {
+  color: var(--color-black-pearl-900);
+}
