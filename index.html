@@ -15,401 +15,434 @@
       href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css"
     />
     <link rel="stylesheet" href="src/styles/main.scss" />
+    <script type="module" src="src/scripts/main.js" defer></script>
     <title>Undefined Shell Blog</title>
   </head>
   <body>
-    <header class="main-navbar">
-      <img
-        src="src/images/logos/undefined-shell.svg"
-        alt="Logo de Undefined Shell"
-      />
-      <nav>
-        <ul class="nav-list">
-          <li>
-            <a href="#" class="text-button text-button-md font-bold is-active"
-              >Inicio</a
-            >
-          </li>
-          <li>
-            <a href="#" class="text-button text-button-md font-bold"
-              >Suscribirse</a
-            >
-          </li>
-          <li>
-            <button class="button button-primary">Undefined Academy</button>
-          </li>
-          <li><button class="button button-secondary">Discord</button></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section class="featured-posts">FEATURED POSTS</section>
-      <section class="post-list-container">
-        <nav class="tags-filter">
-          <div class="filter-list-scroll-hider">
-            <ul class="nav-list filter-list">
-              <li class="is-active-filter">
-                <a class="filter paragraph paragraph-sm font-bold" href="#"
-                  >Todos</a
-                >
-              </li>
-              <li>
-                <a class="filter paragraph paragraph-sm font-bold" href="#"
-                  >HTML</a
-                >
-              </li>
-              <li>
-                <a class="filter paragraph paragraph-sm font-bold" href="#"
-                  >CSS</a
-                >
-              </li>
-              <li>
-                <a class="filter paragraph paragraph-sm font-bold" href="#"
-                  >JavaScript</a
-                >
-              </li>
-              <li>
-                <a class="filter paragraph paragraph-sm font-bold" href="#"
-                  >Web components</a
-                >
-              </li>
-              <li>
-                <a class="filter paragraph paragraph-sm font-bold" href="#"
-                  >Sistemas de diseño</a
-                >
-              </li>
-            </ul>
-          </div>
-          <input class="input" type="search" placeholder="Buscar" />
+    <div class="main-container">
+      <header class="main-navbar">
+        <img
+          src="src/images/logos/undefined-shell.svg"
+          alt="Logo de Undefined Shell"
+        />
+        <nav>
+          <ul class="nav-list">
+            <li>
+              <a href="#" class="text-button text-button-md font-bold is-active"
+                >Inicio</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-button text-button-md font-bold"
+                >Suscribirse</a
+              >
+            </li>
+            <li>
+              <button class="button button-primary">Undefined Academy</button>
+            </li>
+            <li><button class="button button-secondary">Discord</button></li>
+          </ul>
         </nav>
-
-        <div class="post-list">
-          <article class="card">
-            <section>
+      </header>
+      <main>
+        <section class="featured-posts">
+          <article></article>  
+          <div class="button-container">
+            <button>Atras</button>
+            <button>Adelante</button>
+          </div>
+        </section>
+        <section class="post-list-container">
+          <nav class="tags-filter">
+            <div class="filter-list-scroll-hider">
+              <ul class="nav-list filter-list">
+                <li class="is-active-filter">
+                  <a class="filter paragraph paragraph-sm font-bold" href="#"
+                    >Todos</a
+                  >
+                </li>
+                <li>
+                  <a class="filter paragraph paragraph-sm font-bold" href="#"
+                    >HTML</a
+                  >
+                </li>
+                <li>
+                  <a class="filter paragraph paragraph-sm font-bold" href="#"
+                    >CSS</a
+                  >
+                </li>
+                <li>
+                  <a class="filter paragraph paragraph-sm font-bold" href="#"
+                    >JavaScript</a
+                  >
+                </li>
+                <li>
+                  <a class="filter paragraph paragraph-sm font-bold" href="#"
+                    >Web components</a
+                  >
+                </li>
+                <li>
+                  <a class="filter paragraph paragraph-sm font-bold" href="#"
+                    >Sistemas de diseño</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <input class="input" type="search" placeholder="Buscar" />
+          </nav>
+  
+          <div class="post-list">
+            <article class="card">
+              <section>
+                <img
+                  src="https://source.unsplash.com/Tvhodsu63rs"
+                  alt="Imagen de un post"
+                />
+                <div class="card-content">
+                  <header>
+                    <div class="tags">
+                      <span class="tag tag-primary"
+                        ><a href="#">Web Components</a></span
+                      >
+                      <span class="tag tag-primary"><a href="#">CSS</a></span>
+                    </div>
+                    <h2 class="heading heading-sm font-bold">
+                      Estático, dinámico, single-page, multiple-page y JAMstack
+                    </h2>
+                    <time datetime="2022-01-24" class="help-text paragraph paragraph-xs font-regular">
+                      <span>2022-01-24</span>
+                    </time>
+                  </header>
+                  <p class="paragraph paragraph-sm font-regular">
+                    Hoy en día escuchamos términos como páginas estáticas,
+                    dinámicas, SPA, Muti-páginas y, recientemente, el término
+                    JAMStack. ¿Qué significa todo esto?...
+                  </p>
+                </div>
+                <footer>
+                  <div class="author">
+                    <img
+                      src="https://i.pravatar.cc/30"
+                      alt="Avatar de un autor"
+                    />
+                    <span class="paragraph paragraph-xs font-bold"
+                      >Guillermo Rodas</span
+                    >
+                  </div>
+                  <span class="help-text paragraph paragraph-xs font-regular">
+                    <span>7 min lectura</span>
+                  </span>
+                </footer>
+              </section>
+            </article>
+            <article class="card">
+              <section>
+                <img
+                  src="https://source.unsplash.com/Tvhodsu63rs"
+                  alt="Imagen de un post"
+                />
+                <div class="card-content">
+                  <header>
+                    <div class="tags">
+                      <span class="tag tag-primary"
+                        ><a href="#">Web Components</a></span
+                      >
+                      <span class="tag tag-primary"><a href="#">CSS</a></span>
+                    </div>
+                    <h2 class="heading heading-sm font-bold">
+                      Estático, dinámico, single-page, multiple-page y JAMstack
+                    </h2>
+                    <time datetime="2022-01-24" class="help-text paragraph paragraph-xs font-regular">
+                      <span>2022-01-24</span>
+                    </time>
+                  </header>
+                  <p class="paragraph paragraph-sm font-regular">
+                    Hoy en día escuchamos términos como páginas estáticas,
+                    dinámicas, SPA, Muti-páginas y, recientemente, el término
+                    JAMStack. ¿Qué significa todo esto?...
+                  </p>
+                </div>
+                <footer>
+                  <div class="author">
+                    <img
+                      src="https://i.pravatar.cc/30"
+                      alt="Avatar de un autor"
+                    />
+                    <span class="paragraph paragraph-xs font-bold"
+                      >Guillermo Rodas</span
+                    >
+                  </div>
+                  <span class="help-text paragraph paragraph-xs font-regular">
+                    <span>7 min lectura</span>
+                  </span>
+                </footer>
+              </section>
+            </article>
+            <article class="card">
+              <section>
+                <img
+                  src="https://source.unsplash.com/Tvhodsu63rs"
+                  alt="Imagen de un post"
+                />
+                <div class="card-content">
+                  <header>
+                    <div class="tags">
+                      <span class="tag tag-primary"
+                        ><a href="#">Web Components</a></span
+                      >
+                      <span class="tag tag-primary"><a href="#">CSS</a></span>
+                    </div>
+                    <h2 class="heading heading-sm font-bold">
+                      Estático, dinámico, single-page, multiple-page y JAMstack
+                    </h2>
+                    <time datetime="2022-01-24" class="help-text paragraph paragraph-xs font-regular">
+                      <span>2022-01-24</span>
+                    </time>
+                  </header>
+                  <p class="paragraph paragraph-sm font-regular">
+                    Hoy en día escuchamos términos como páginas estáticas,
+                    dinámicas, SPA, Muti-páginas y, recientemente, el término
+                    JAMStack. ¿Qué significa todo esto?...
+                  </p>
+                </div>
+                <footer>
+                  <div class="author">
+                    <img
+                      src="https://i.pravatar.cc/30"
+                      alt="Avatar de un autor"
+                    />
+                    <span class="paragraph paragraph-xs font-bold"
+                      >Guillermo Rodas</span
+                    >
+                  </div>
+                  <span class="help-text paragraph paragraph-xs font-regular">
+                    <span>7 min lectura</span>
+                  </span>
+                </footer>
+              </section>
+            </article>
+            <article class="card card-extended">
               <img
                 src="https://source.unsplash.com/Tvhodsu63rs"
                 alt="Imagen de un post"
               />
-              <div class="card-content">
-                <header>
-                  <div class="tags">
-                    <span class="tag tag-primary"
-                      ><a href="#">Web Components</a></span
-                    >
-                    <span class="tag tag-primary"><a href="#">CSS</a></span>
-                  </div>
-                  <h2 class="heading heading-sm font-bold">
-                    Estático, dinámico, single-page, multiple-page y JAMstack
-                  </h2>
-                </header>
-                <p class="paragraph paragraph-sm font-regular">
-                  Hoy en día escuchamos términos como páginas estáticas,
-                  dinámicas, SPA, Muti-páginas y, recientemente, el término
-                  JAMStack. ¿Qué significa todo esto?...
-                </p>
-              </div>
-              <footer>
-                <div class="author">
-                  <img
-                    src="https://i.pravatar.cc/30"
-                    alt="Avatar de un autor"
-                  />
-                  <span class="paragraph paragraph-xs font-bold"
-                    >Guillermo Rodas</span
-                  >
+              <section>
+                <div class="card-content">
+                  <header>
+                    <div class="tags">
+                      <span class="tag tag-secondary"
+                        ><a href="#">Web Components</a></span
+                      >
+                      <span class="tag tag-secondary"><a href="#">CSS</a></span>
+                    </div>
+                    <h2 class="heading heading-sm font-bold">
+                      Estático, dinámico, single-page, multiple-page y JAMstack
+                    </h2>
+                    <time datetime="2022-01-24" class="help-text paragraph paragraph-xs font-regular">
+                      <span>2022-01-24</span>
+                    </time>
+                  </header>
+                  <p class="paragraph paragraph-sm font-regular">
+                    Hoy en día escuchamos términos como páginas estáticas,
+                    dinámicas, SPA, Muti-páginas y, recientemente, el término
+                    JAMStack. ¿Qué significa todo esto?...
+                  </p>
                 </div>
-                <span class="reading-time paragraph paragraph-xs font-regular">
-                  <span>7 min lectura</span>
-                </span>
-              </footer>
-            </section>
-          </article>
-          <article class="card">
-            <section>
+  
+                <footer>
+                  <div class="author">
+                    <img
+                      src="https://i.pravatar.cc/30"
+                      alt="Avatar de un autor"
+                    />
+                    <span class="paragraph paragraph-xs font-bold"
+                      >Guillermo Rodas</span
+                    >
+                  </div>
+                  <span class="help-text paragraph paragraph-xs font-regular">
+                    <span>7 min lectura</span>
+                  </span>
+                </footer>
+              </section>
+            </article>
+            <article class="card">
+              <section>
+                <img
+                  src="https://source.unsplash.com/Tvhodsu63rs"
+                  alt="Imagen de un post"
+                />
+                <div class="card-content">
+                  <header>
+                    <div class="tags">
+                      <span class="tag tag-primary"
+                        ><a href="#">Web Components</a></span
+                      >
+                      <span class="tag tag-primary"><a href="#">CSS</a></span>
+                    </div>
+                    <h2 class="heading heading-sm font-bold">
+                      Estático, dinámico, single-page, multiple-page y JAMstack
+                    </h2>
+                    <time datetime="2022-01-24" class="help-text paragraph paragraph-xs font-regular">
+                      <span>2022-01-24</span>
+                    </time>
+                  </header>
+                  <p class="paragraph paragraph-sm font-regular">
+                    Hoy en día escuchamos términos como páginas estáticas,
+                    dinámicas, SPA, Muti-páginas y, recientemente, el término
+                    JAMStack. ¿Qué significa todo esto?...
+                  </p>
+                </div>
+                <footer>
+                  <div class="author">
+                    <img
+                      src="https://i.pravatar.cc/30"
+                      alt="Avatar de un autor"
+                    />
+                    <span class="paragraph paragraph-xs font-bold"
+                      >Guillermo Rodas</span
+                    >
+                  </div>
+                  <span class="help-text paragraph paragraph-xs font-regular">
+                    <span>7 min lectura</span>
+                  </span>
+                </footer>
+              </section>
+            </article>
+            <article class="card">
+              <section>
+                <img
+                  src="https://source.unsplash.com/Tvhodsu63rs"
+                  alt="Imagen de un post"
+                />
+                <div class="card-content">
+                  <header>
+                    <div class="tags">
+                      <span class="tag tag-primary"
+                        ><a href="#">Web Components</a></span
+                      >
+                      <span class="tag tag-primary"><a href="#">CSS</a></span>
+                    </div>
+                    <h2 class="heading heading-sm font-bold">
+                      Estático, dinámico, single-page, multiple-page y JAMstack
+                    </h2>
+                    <time datetime="2023-04-24" class="help-text paragraph paragraph-xs font-regular">
+                      <span>2023-04-24</span>
+                    </time>
+                  </header>
+                  <p class="paragraph paragraph-sm font-regular">
+                    Hoy en día escuchamos términos como páginas estáticas,
+                    dinámicas, SPA, Muti-páginas y, recientemente, el término
+                    JAMStack. ¿Qué significa todo esto?...
+                  </p>
+                </div>
+                <footer>
+                  <div class="author">
+                    <img
+                      src="https://i.pravatar.cc/30"
+                      alt="Avatar de un autor"
+                    />
+                    <span class="paragraph paragraph-xs font-bold"
+                      >Guillermo Rodas</span
+                    >
+                  </div>
+                  <span class="help-text paragraph paragraph-xs font-regular">
+                    <span>7 min lectura</span>
+                  </span>
+                </footer>
+              </section>
+            </article>
+            <article class="card">
+              <section>
+                <img
+                  src="https://source.unsplash.com/Tvhodsu63rs"
+                  alt="Imagen de un post"
+                />
+                <div class="card-content">
+                  <header>
+                    <div class="tags">
+                      <span class="tag tag-primary"
+                        ><a href="#">Web Components</a></span
+                      >
+                      <span class="tag tag-primary"><a href="#">CSS</a></span>
+                    </div>
+                    <h2 class="heading heading-sm font-bold">
+                      Estático, dinámico, single-page, multiple-page y JAMstack
+                    </h2>
+                    <time datetime="2022-12-24" class="help-text paragraph paragraph-xs font-regular">
+                      <span>2022-12-24</span>
+                    </time>
+                  </header>
+                  <p class="paragraph paragraph-sm font-regular">
+                    Hoy en día escuchamos términos como páginas estáticas,
+                    dinámicas, SPA, Muti-páginas y, recientemente, el término
+                    JAMStack. ¿Qué significa todo esto?...
+                  </p>
+                </div>
+                <footer>
+                  <div class="author">
+                    <img
+                      src="https://i.pravatar.cc/30"
+                      alt="Avatar de un autor"
+                    />
+                    <span class="paragraph paragraph-xs font-bold"
+                      >Guillermo Rodas</span
+                    >
+                  </div>
+                  <span class="help-text paragraph paragraph-xs font-regular">
+                    <span>7 min lectura</span>
+                  </span>
+                </footer>
+              </section>
+            </article>
+            <article class="card card-extended is-reversed">
               <img
                 src="https://source.unsplash.com/Tvhodsu63rs"
                 alt="Imagen de un post"
               />
-              <div class="card-content">
-                <header>
-                  <div class="tags">
-                    <span class="tag tag-primary"
-                      ><a href="#">Web Components</a></span
-                    >
-                    <span class="tag tag-primary"><a href="#">CSS</a></span>
-                  </div>
-                  <h2 class="heading heading-sm font-bold">
-                    Estático, dinámico, single-page, multiple-page y JAMstack
-                  </h2>
-                </header>
-                <p class="paragraph paragraph-sm font-regular">
-                  Hoy en día escuchamos términos como páginas estáticas,
-                  dinámicas, SPA, Muti-páginas y, recientemente, el término
-                  JAMStack. ¿Qué significa todo esto?...
-                </p>
-              </div>
-              <footer>
-                <div class="author">
-                  <img
-                    src="https://i.pravatar.cc/30"
-                    alt="Avatar de un autor"
-                  />
-                  <span class="paragraph paragraph-xs font-bold"
-                    >Guillermo Rodas</span
-                  >
+              <section>
+                <div class="card-content">
+                  <header>
+                    <div class="tags">
+                      <span class="tag tag-secondary"
+                        ><a href="#">Web Components</a></span
+                      >
+                      <span class="tag tag-secondary"><a href="#">CSS</a></span>
+                    </div>
+                    <h2 class="heading heading-sm font-bold">
+                      Estático, dinámico, single-page, multiple-page y JAMstack
+                    </h2>
+                    <time datetime="2023-05-11" class="help-text paragraph paragraph-xs font-regular">
+                      <span>2023-05-11</span>
+                    </time>
+                  </header>
+                  <p class="paragraph paragraph-sm font-regular">
+                    Hoy en día escuchamos términos como páginas estáticas,
+                    dinámicas, SPA, Muti-páginas y, recientemente, el término
+                    JAMStack. ¿Qué significa todo esto?...
+                  </p>
                 </div>
-                <span class="reading-time paragraph paragraph-xs font-regular">
-                  <span>7 min lectura</span>
-                </span>
-              </footer>
-            </section>
-          </article>
-          <article class="card">
-            <section>
-              <img
-                src="https://source.unsplash.com/Tvhodsu63rs"
-                alt="Imagen de un post"
-              />
-              <div class="card-content">
-                <header>
-                  <div class="tags">
-                    <span class="tag tag-primary"
-                      ><a href="#">Web Components</a></span
+  
+                <footer>
+                  <div class="author">
+                    <img
+                      src="https://i.pravatar.cc/30"
+                      alt="Avatar de un autor"
+                    />
+                    <span class="paragraph paragraph-xs font-bold"
+                      >Guillermo Rodas</span
                     >
-                    <span class="tag tag-primary"><a href="#">CSS</a></span>
                   </div>
-                  <h2 class="heading heading-sm font-bold">
-                    Estático, dinámico, single-page, multiple-page y JAMstack
-                  </h2>
-                </header>
-                <p class="paragraph paragraph-sm font-regular">
-                  Hoy en día escuchamos términos como páginas estáticas,
-                  dinámicas, SPA, Muti-páginas y, recientemente, el término
-                  JAMStack. ¿Qué significa todo esto?...
-                </p>
-              </div>
-              <footer>
-                <div class="author">
-                  <img
-                    src="https://i.pravatar.cc/30"
-                    alt="Avatar de un autor"
-                  />
-                  <span class="paragraph paragraph-xs font-bold"
-                    >Guillermo Rodas</span
-                  >
-                </div>
-                <span class="reading-time paragraph paragraph-xs font-regular">
-                  <span>7 min lectura</span>
-                </span>
-              </footer>
-            </section>
-          </article>
-          <article class="card card-extended">
-            <img
-              src="https://source.unsplash.com/Tvhodsu63rs"
-              alt="Imagen de un post"
-            />
-            <section>
-              <div class="card-content">
-                <header>
-                  <div class="tags">
-                    <span class="tag tag-secondary"
-                      ><a href="#">Web Components</a></span
-                    >
-                    <span class="tag tag-secondary"><a href="#">CSS</a></span>
-                  </div>
-                  <h2 class="heading heading-sm font-bold">
-                    Estático, dinámico, single-page, multiple-page y JAMstack
-                  </h2>
-                </header>
-                <p class="paragraph paragraph-sm font-regular">
-                  Hoy en día escuchamos términos como páginas estáticas,
-                  dinámicas, SPA, Muti-páginas y, recientemente, el término
-                  JAMStack. ¿Qué significa todo esto?...
-                </p>
-              </div>
-
-              <footer>
-                <div class="author">
-                  <img
-                    src="https://i.pravatar.cc/30"
-                    alt="Avatar de un autor"
-                  />
-                  <span class="paragraph paragraph-xs font-bold"
-                    >Guillermo Rodas</span
-                  >
-                </div>
-                <span class="reading-time paragraph paragraph-xs font-regular">
-                  <span>7 min lectura</span>
-                </span>
-              </footer>
-            </section>
-          </article>
-          <article class="card">
-            <section>
-              <img
-                src="https://source.unsplash.com/Tvhodsu63rs"
-                alt="Imagen de un post"
-              />
-              <div class="card-content">
-                <header>
-                  <div class="tags">
-                    <span class="tag tag-primary"
-                      ><a href="#">Web Components</a></span
-                    >
-                    <span class="tag tag-primary"><a href="#">CSS</a></span>
-                  </div>
-                  <h2 class="heading heading-sm font-bold">
-                    Estático, dinámico, single-page, multiple-page y JAMstack
-                  </h2>
-                </header>
-                <p class="paragraph paragraph-sm font-regular">
-                  Hoy en día escuchamos términos como páginas estáticas,
-                  dinámicas, SPA, Muti-páginas y, recientemente, el término
-                  JAMStack. ¿Qué significa todo esto?...
-                </p>
-              </div>
-              <footer>
-                <div class="author">
-                  <img
-                    src="https://i.pravatar.cc/30"
-                    alt="Avatar de un autor"
-                  />
-                  <span class="paragraph paragraph-xs font-bold"
-                    >Guillermo Rodas</span
-                  >
-                </div>
-                <span class="reading-time paragraph paragraph-xs font-regular">
-                  <span>7 min lectura</span>
-                </span>
-              </footer>
-            </section>
-          </article>
-          <article class="card">
-            <section>
-              <img
-                src="https://source.unsplash.com/Tvhodsu63rs"
-                alt="Imagen de un post"
-              />
-              <div class="card-content">
-                <header>
-                  <div class="tags">
-                    <span class="tag tag-primary"
-                      ><a href="#">Web Components</a></span
-                    >
-                    <span class="tag tag-primary"><a href="#">CSS</a></span>
-                  </div>
-                  <h2 class="heading heading-sm font-bold">
-                    Estático, dinámico, single-page, multiple-page y JAMstack
-                  </h2>
-                </header>
-                <p class="paragraph paragraph-sm font-regular">
-                  Hoy en día escuchamos términos como páginas estáticas,
-                  dinámicas, SPA, Muti-páginas y, recientemente, el término
-                  JAMStack. ¿Qué significa todo esto?...
-                </p>
-              </div>
-              <footer>
-                <div class="author">
-                  <img
-                    src="https://i.pravatar.cc/30"
-                    alt="Avatar de un autor"
-                  />
-                  <span class="paragraph paragraph-xs font-bold"
-                    >Guillermo Rodas</span
-                  >
-                </div>
-                <span class="reading-time paragraph paragraph-xs font-regular">
-                  <span>7 min lectura</span>
-                </span>
-              </footer>
-            </section>
-          </article>
-          <article class="card">
-            <section>
-              <img
-                src="https://source.unsplash.com/Tvhodsu63rs"
-                alt="Imagen de un post"
-              />
-              <div class="card-content">
-                <header>
-                  <div class="tags">
-                    <span class="tag tag-primary"
-                      ><a href="#">Web Components</a></span
-                    >
-                    <span class="tag tag-primary"><a href="#">CSS</a></span>
-                  </div>
-                  <h2 class="heading heading-sm font-bold">
-                    Estático, dinámico, single-page, multiple-page y JAMstack
-                  </h2>
-                </header>
-                <p class="paragraph paragraph-sm font-regular">
-                  Hoy en día escuchamos términos como páginas estáticas,
-                  dinámicas, SPA, Muti-páginas y, recientemente, el término
-                  JAMStack. ¿Qué significa todo esto?...
-                </p>
-              </div>
-              <footer>
-                <div class="author">
-                  <img
-                    src="https://i.pravatar.cc/30"
-                    alt="Avatar de un autor"
-                  />
-                  <span class="paragraph paragraph-xs font-bold"
-                    >Guillermo Rodas</span
-                  >
-                </div>
-                <span class="reading-time paragraph paragraph-xs font-regular">
-                  <span>7 min lectura</span>
-                </span>
-              </footer>
-            </section>
-          </article>
-          <article class="card card-extended">
-            <img
-              src="https://source.unsplash.com/Tvhodsu63rs"
-              alt="Imagen de un post"
-            />
-            <section>
-              <div class="card-content">
-                <header>
-                  <div class="tags">
-                    <span class="tag tag-secondary"
-                      ><a href="#">Web Components</a></span
-                    >
-                    <span class="tag tag-secondary"><a href="#">CSS</a></span>
-                  </div>
-                  <h2 class="heading heading-sm font-bold">
-                    Estático, dinámico, single-page, multiple-page y JAMstack
-                  </h2>
-                </header>
-                <p class="paragraph paragraph-sm font-regular">
-                  Hoy en día escuchamos términos como páginas estáticas,
-                  dinámicas, SPA, Muti-páginas y, recientemente, el término
-                  JAMStack. ¿Qué significa todo esto?...
-                </p>
-              </div>
-
-              <footer>
-                <div class="author">
-                  <img
-                    src="https://i.pravatar.cc/30"
-                    alt="Avatar de un autor"
-                  />
-                  <span class="paragraph paragraph-xs font-bold"
-                    >Guillermo Rodas</span
-                  >
-                </div>
-                <span class="reading-time paragraph paragraph-xs font-regular">
-                  <span>7 min lectura</span>
-                </span>
-              </footer>
-            </section>
-          </article>
-        </div>
-      </section>
-      <aside>APRENDE A PROGRAMAR</aside>
-    </main>
+                  <span class="help-text paragraph paragraph-xs font-regular">
+                    <span>7 min lectura</span>
+                  </span>
+                </footer>
+              </section>
+            </article>
+          </div>
+        </section>
+        
+      </main>
+    </div>
     <footer>FOOTER</footer>
   </body>
 </html>
